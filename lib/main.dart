@@ -12,7 +12,6 @@ import 'screens/login_screen.dart';
 import 'services/api_client.dart';
 import 'services/booking_service.dart';
 import 'services/config_service.dart';
-//use map key "AIzaSyC3IfmFYxO7zTSzAy6XyM7gHzq6b_0b5Og" inside env in following way "MAP_KEY="AIzaSyC3IfmFYxO7zTSzAy6XyM7gHzq6b_0b5Og""
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
