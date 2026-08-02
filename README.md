@@ -2,7 +2,6 @@
 
 SmartPark is a Flutter parking app for finding lots, checking availability, booking slots, and managing parking activity from a mobile or desktop client.
 
-<img width="230" height="506" alt="Screenshot 2026-08-02 073707" src="https://github.com/user-attachments/assets/9dd94aca-c041-4447-852a-68610501b638" />
 <img width="240" height="506" alt="Screenshot 2026-08-02 073651" src="https://github.com/user-attachments/assets/6ec40497-003c-4e09-a090-0609075ba06e" />
 <img width="275" height="515" alt="Screenshot 2026-08-02 073557" src="https://github.com/user-attachments/assets/529cd7e5-2506-46ea-ab98-585cacbc3366" />
 <img width="279" height="520" alt="Screenshot 2026-08-02 073520" src="https://github.com/user-attachments/assets/2988c3d6-0040-4c46-ad2a-9580cda14087" />
