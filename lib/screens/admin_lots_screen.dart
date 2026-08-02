@@ -709,7 +709,7 @@ class LotMetricsScreen extends StatelessWidget {
         Container(
           padding: const EdgeInsets.all(12),
           decoration: BoxDecoration(
-            color: color.withOpacity(0.1),
+            color: color.withValues(alpha: 0.1),
             borderRadius: BorderRadius.circular(8),
           ),
           child: Text(
@@ -746,7 +746,7 @@ class _AddLotScreenState extends State<AddLotScreen> {
   final _slotsController = TextEditingController(text: '10');
   final _priceController = TextEditingController(text: '50');
   bool _loading = false;
-  List<XFile> _selectedImages = [];
+  final List<XFile> _selectedImages = [];
 
   @override
   void dispose() {

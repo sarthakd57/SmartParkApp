@@ -6,8 +6,8 @@ import '../services/api_client.dart';
 class AdminProvider extends ChangeNotifier {
   final ApiClient _apiClient;
 
-  Map<String, AdminMetrics> _metricsPerLot = {}; // lotId -> metrics
-  List<VehicleAlert> _activeAlerts = [];
+  final Map<String, AdminMetrics> _metricsPerLot = {}; // lotId -> metrics
+  final List<VehicleAlert> _activeAlerts = [];
   bool _loading = false;
   String? _error;
 

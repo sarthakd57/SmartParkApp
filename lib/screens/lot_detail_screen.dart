@@ -316,7 +316,7 @@ class _LotDetailScreenState extends State<LotDetailScreen> {
                     Padding(
                       padding: const EdgeInsets.symmetric(horizontal: 16),
                       child: DropdownButtonFormField<int>(
-                        value: _durationHours,
+                        initialValue: _durationHours,
                         decoration: const InputDecoration(
                           labelText: 'Duration (hours)',
                           contentPadding: EdgeInsets.all(12),
@@ -349,7 +349,7 @@ class _LotDetailScreenState extends State<LotDetailScreen> {
                     Padding(
                       padding: const EdgeInsets.symmetric(horizontal: 16),
                       child: DropdownButtonFormField<String>(
-                        value: _subscriptionType,
+                        initialValue: _subscriptionType,
                         decoration: const InputDecoration(
                           labelText: 'Subscription Duration',
                           contentPadding: EdgeInsets.all(12),
@@ -558,7 +558,7 @@ class _LotDetailScreenState extends State<LotDetailScreen> {
                       ),
                       Text(
                         _useSubscription
-                            ? '$_subscriptionType'
+                            ? _subscriptionType
                             : '${_durationHours}h',
                         style: Theme.of(context).textTheme.bodyMedium?.copyWith(
                               fontWeight: FontWeight.bold,

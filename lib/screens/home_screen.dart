@@ -182,7 +182,7 @@ class _HomeScreenState extends State<HomeScreen> {
                     icon: const Icon(Icons.admin_panel_settings),
                     label: const Text('Admin Dashboard'),
                     style: FilledButton.styleFrom(
-                      backgroundColor: Colors.white.withOpacity(0.2),
+                      backgroundColor: Colors.white.withValues(alpha: 0.2),
                       foregroundColor: Colors.white,
                       elevation: 0,
                     ),
